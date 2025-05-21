@@ -7,7 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-
+#include <dt-bindings/zmk/pointing.h>
 
 // Layer defines to make things a bit more descriptive
 #define QWERTY 0
@@ -16,6 +16,9 @@
 #define ARROWS 3
 #define VSCODE 4
 #define MOUSE 5 
+
+
+CONFIG_ZMK_POINTING=y
 
 / {
         keymap {
@@ -73,8 +76,7 @@
                         */
             
                         bindings = <
-                        //     &trans    &trans    &trans    &trans    &trans    &trans         &mkp MB4  &trans    &kp F12    &mkp MB5  &trans    &trans
-                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &mkp MB4  &trans    &kp F12    &mkp MB5  &trans    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
             
