@@ -18,7 +18,6 @@
 #define MOUSE 5 
 
 
-CONFIG_ZMK_POINTING=y
 
 / {
         keymap {
