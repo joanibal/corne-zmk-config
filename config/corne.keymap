@@ -73,7 +73,8 @@
                         */
             
                         bindings = <
-                            &trans    &trans    &trans    &trans    &trans    &trans         &mkp MB4  &trans    &kp F12    &mkp MB5  &trans    &trans
+                        //     &trans    &trans    &trans    &trans    &trans    &trans         &mkp MB4  &trans    &kp F12    &mkp MB5  &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
             
@@ -88,7 +89,8 @@
                         */
             
                         bindings = <
-                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &kp F10    &kp F11    &kp F12    &trans
+                        //     &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &kp LC(BKT)    &trans    &trans    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
             
