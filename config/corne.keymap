@@ -66,13 +66,36 @@
                 };
 
 
-                extra_1 {
-                        status = "reserved";
-                };
-
-                extra_2 {
-                        status = "reserved";
-                };
+                arrow_layer {
+                        display-name = "Arrows";
+                        /*
+                        // Arrows & Nav Layer
+                        */
+            
+                        bindings = <
+                            &trans    &trans    &trans    &trans    &trans    &trans         &mkp MB4  &trans    &kp F12    &mkp MB5  &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &kp HOME  &kp PGDN  &kp PGUP  &kp END   &trans    &trans
+            
+                                        &trans       &trans        &trans         &trans        &trans        &trans
+                        >;
+                    };
+            
+                    vscode_layer {
+                        display-name = "VSCode";
+                        /*
+                        // VS Code Shortcuts (placeholder - add specific shortcuts as needed)
+                        */
+            
+                        bindings = <
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
+            
+                                        &trans       &trans        &trans         &trans        &trans        &trans
+                        >;
+                    };
+            
 
                 extra_3 {
                         status = "reserved";
