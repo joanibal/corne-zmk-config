@@ -50,7 +50,7 @@
 &trans    &kp LT   &kp LBRC  &kp LPAR &kp LBKT &trans   &trans    &kp RBKT  &kp RPAR  &kp RBRC  &kp GT   &trans
 &trans    &kp EXCL &kp TILDE &kp AMPS &kp PIPE &trans    &trans  &kp DLLR  &kp PRCNT &kp HASH  &kp  BSLH  &trans
                                 &trans   &trans   &lt VSCODE BKSP  &trans   &trans    &trans
-                        >
+                        >;
                 };
                 numbers_layer {
                         // -----------------------------------------------------------------------------------------
