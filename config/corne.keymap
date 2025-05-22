@@ -90,12 +90,11 @@
                         */
             
                         bindings = <
-                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &kp F10    &kp F11    &kp F12    &trans
-                        //     &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &kp LC(BKT)    &trans    &trans    &trans
-                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
-                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans            &kp F10      &kp F11    &kp F12    &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &kp LC(LBKT)      &kp LA(DOWN) &kp RA(UP) &kp RC(RBKT)     &trans
+                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &kp LS(LC(LBKT))  &trans        &trans    &kp RS(RC(RBKT)) &trans
             
-                                        &trans       &trans        &trans         &trans        &trans        &trans
+                                                &trans       &trans        &trans            &trans      &trans        &trans
                         >;
                     };
             
