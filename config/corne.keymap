@@ -90,7 +90,7 @@
                         */
             
                         bindings = <
-                            &trans    &trans    &trans    &trans    &trans    &trans         &trans    &trans            &kp F10      &kp F11         &kp F12    &trans
+                            &bt BT_CLR    &trans    &trans    &trans    &trans    &trans         &trans    &trans            &kp F10      &kp F11         &kp F12    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &trans    &kp LC(LBKT)      &kp LA(DOWN) &kp RA(UP)      &kp RC(RBKT)     &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &trans    &kp LS(LC(LBKT))  &trans       &kp LS(LC(DOT)) &kp RS(RC(RBKT)) &trans
             
