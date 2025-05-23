@@ -18,6 +18,19 @@
 #define MOUSE 5 
 
 
+
+// Row 0:  0   1   2   3   4   5
+// Row 1:  6   7   8   9  10  11
+// Row 2: 12  13  14  15  16  17
+// Thumb: 18  19  20
+
+
+// Row 0: 21  22  23  24  25  26
+// Row 1: 27  28  29  30  31  32
+// Row 2: 33  34  35  36  37  38
+// Thumb: 39  40  41
+
+
 / {
         behaviors {
             hml: home_row_mod_left {
@@ -42,6 +55,15 @@
                 hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20>; // List of keys on the left side of the keyboard
                 hold-trigger-on-release;
             };
+        lt: layer_tap {
+                compatible = "zmk,behavior-hold-tap";
+                #binding-cells = <2>;
+                flavor = "balanced";
+                tapping-term-ms = <200>;
+                bindings = <&mo>, <&kp>;
+                display-name = "Layer-Tap";
+                quick-tap-ms = <175>;
+        };
         };
 };
 
