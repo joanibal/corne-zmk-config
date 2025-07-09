@@ -129,7 +129,7 @@
                         */
             
                         bindings = <
-                            &bt BT_CLR   &bt BT_SEL 0   &bt BT_SEL 1    &trans    &trans    &trans         &trans    &trans            &kp F10      &kp F11         &kp F12    &trans
+                            &bt BT_CLR_ALL    &trans    &trans    &trans    &trans    &trans         &trans    &trans            &kp F10      &kp F11         &kp F12    &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &trans    &kp LC(LBKT)      &kp LA(DOWN) &kp RA(UP)      &kp RC(RBKT)     &trans
                             &trans    &trans    &trans    &trans    &trans    &trans         &trans    &kp LS(LC(LBKT))  &trans       &kp LS(LC(DOT)) &kp RS(RC(RBKT)) &trans
             
